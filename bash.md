@@ -20,3 +20,5 @@
 5. Test your keytab
 `kinit –k –t mykeytab.kt login@ABC.COM`
 6. Optional: Put it in .bashrc
+\
+Note: Verify your domain from /etc/krb5.conf
