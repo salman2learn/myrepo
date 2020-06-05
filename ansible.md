@@ -1,3 +1,6 @@
+## Ansible adhoc commands
+ref: https://docs.ansible.com/ansible/latest/user_guide/intro_adhoc.html
+
 Hosts config: /etc/ansible/hosts
 ```
 myserver1
