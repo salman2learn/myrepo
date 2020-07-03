@@ -1,6 +1,6 @@
 ## Audit Database access
 
-```
+`
 declare @sql varchar(Max)
 
  set @sql = 'use ? SELECT ''?'', dbPri.name, dbPri1.name
@@ -13,7 +13,7 @@ declare @sql varchar(Max)
  WHERE dbPri.name != ''dbo'' order by 2'
 
  EXEC sp_MSforeachdb @sql
-```
+`
 
 Ref: https://dba.stackexchange.com/a/225128
 Ref: http://www.sqlnuggets.com/blog/stored-procedures-ignore-users-permissions/
